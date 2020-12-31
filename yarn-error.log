@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vuex@4.0.0-rc.2
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;E:\xftp\;E:\Xshell\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;E:\Git\cmd;E:\apache-maven-3.6.3\bin;D:\flutter\flutter\bin;C:\Program Files\Dart\dart-sdk\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;E:\Microsoft VS Code\bin;C:\Users\Administrator\AppData\Roaming\npm;E:\PhpStorm 2020.2.3\bin;;E:\APICloud Studio 3\bin;E:\IntelliJ IDEA 2020.3\bin;;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Java\jdk1.8.0_152\jre\bin;E:\apache-maven-3.6.3\bin;D:\apache-tomcat-10.0.0\bin;D:\flutter\flutter\bin;D:\AndroidSdk\platform-tools;D:\AndroidSdk\tools;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\WorkSpace\yd-ts-vuex\node_modules\esbuild\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "yd-ts-vuex",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build"
+    },
+    "dependencies": {
+      "vue": "^3.0.4"
+    },
+    "devDependencies": {
+      "vite": "^1.0.0-rc.13",
+      "@vue/compiler-sfc": "^3.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
